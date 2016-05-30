@@ -11,7 +11,16 @@ day_schedule = [shopping_list, other]
 print(day_schedule)
 print("this third item from first list is:",(day_schedule[0][2]))
 print("this last item from second list is:",(day_schedule[1][-1]))
-''' OUTPUT
+day_schedule.append('Gym') # this will add item in the last position
+print("my schedule :", day_schedule)
+day_schedule.insert(1, "coffee")
+print("my schedule :", day_schedule)
+day_schedule.remove("coffee")
+print("my schedule :", day_schedule)
+
+
+
+'''OUTPUT:
 first item apple
 Second item juice
 third item tomatoes
@@ -22,4 +31,8 @@ multiple items ['juice', 'tomatoes']
 [['apple', 'juice', 'tomatoes', 'oats'], ['movie', 'dinner']]
 this third item from first list is: tomatoes
 this last item from second list is: dinner
+my schedule : [['apple', 'juice', 'tomatoes', 'oats'], ['movie', 'dinner'], 'Gym']
+my schedule : [['apple', 'juice', 'tomatoes', 'oats'], 'coffee', ['movie', 'dinner'], 'Gym']
+my schedule : [['apple', 'juice', 'tomatoes', 'oats'], ['movie', 'dinner'], 'Gym']
+
 '''
