@@ -11,3 +11,15 @@ day_schedule = [shopping_list, other]
 print(day_schedule)
 print("this third item from first list is:",(day_schedule[0][2]))
 print("this last item from second list is:",(day_schedule[1][-1]))
+''' OUTPUT
+first item apple
+Second item juice
+third item tomatoes
+forth item oats
+last item oats
+second last item tomatoes
+multiple items ['juice', 'tomatoes']
+[['apple', 'juice', 'tomatoes', 'oats'], ['movie', 'dinner']]
+this third item from first list is: tomatoes
+this last item from second list is: dinner
+'''
