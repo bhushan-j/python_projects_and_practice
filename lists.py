@@ -19,7 +19,6 @@ day_schedule.remove("coffee")
 print("my schedule :", day_schedule)
 
 
-
 '''OUTPUT:
 first item apple
 Second item juice
