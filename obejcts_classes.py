@@ -55,6 +55,8 @@ class dog(Animal):
     def get_type(self):
         print("dog")
 
+
+
     def toString(self):
         return "{} is {} cm tall and kilograms and says {} his owner is {}".format(self.__name,
                                                                                    self.__height,
